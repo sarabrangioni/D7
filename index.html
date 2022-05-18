@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Buser</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="cabecalho">
+        <img src="img/buser-horizontal-rosa.0109919.svg" alt="Buser" />
+        <h3 class="alinhar">Entrar</h3>
+      </div>
+      <div class="texto">
+        <h1>VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIÁRIA</h1>
+        <h2 class="espaco">Sem taxas, com segurança e preço justo</h2>
+      </div>
+      <div class="forms">
+        <form action="input">
+          <label for="destiny-name">Saindo de</label>
+          <input
+            readonly="readonly"
+            class="icon-input-circle"
+            type="text"
+            id="destiny-name"
+            value="São José dos Campos - SP"
+          />
+          <label for="indo">Indo para</label>
+          <input
+            readonly="readonly"
+            class="icon-input-location"
+            type="text"
+            id="indo"
+            value="São Paulo - SP"
+          />
+          <label for="date">Data de ida</label>
+          <input
+            placeholder="Ida"
+            class="textbox-n icon-input icon-input-date"
+            type="text"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+            id="date"
+          />
+          <label for="date">Data de volta</label>
+          <input
+            placeholder="Volta"
+            class="textbox-n icon-input icon-input-date"
+            type="text"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+            id="date"
+          />
+        </form>
+        <button class="icon-buscar">Buscar</button>
+      </div>
+    </div>
+  </body>
+</html>
