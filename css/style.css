@@ -113,3 +113,31 @@ button {
   border-radius: 6px;
   font-size: 16px;
 }
+.pé {
+  background-color: #424242;
+}
+.button2 {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  height: 60px;
+  text-align: center;
+}
+
+.icons-align {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
