@@ -108,4 +108,8 @@ button {
   background-color: #f11075;
   color: #fff;
   font-weight: 400;
+  width: 90%;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
 }
